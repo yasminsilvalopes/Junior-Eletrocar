@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>agendamento de serviços eletroeletrônica automotiva</title>
+    <meta name="description" content="site para agendamento de serviços
+    eletroeletrônica automotiva">
+    <link rel="stylesheet" href="style.css">
+       
+         
+  </head>
+
+<body>
+  <header>
+    <h1>Junior EletroCar </h1>
+    <p>Cuidamos da parte elétrica do seu carro com precisão! </p>
+    </header>
+     <main>
+     <!--inicio do formulário-->
+     <section>
+   <h2>Sobre nossos serviços </h2>
+  <p>Oferecemos uma quantidade variada de serviços para a parte elétrica do seu veículo,
+  oferecendo diagnósticos e resolução de problemas.   </p>
+  <p>Entre nossos serviços estão:<br>
+  Injeção eletrônica- serve para gerenciar, diagnosticar e reparar o sistema responsável 
+   por alimentar o motor com combustível e ar de forma otimizada.<br> 
+   Conserto de módulo de injeção- serve para reparar o "cérebro" eletrônico do veículo, restaurando
+    o funcionamento correto do motor e dos sistemas eletrônicos,<br>
+    evitando a necessidade de troca por um novo, que costuma ser muito cara. <br>
+    Codificação de chave- sincroniza eletronicamente uma chave nova ou reserva à central de segurança do veículo <br> </p>
+   <p> agende seu serviço aqui! <br> </p>
+    </section>
+          <!--selecionar o serviço que precisa.   --> 
+    
+        <h2>selecione o serviço que precisa. </h2>
+  <form id="meuFormulario">
+   <section> 
+  <input type="radio" value="injeção elétrica" id="injecao_eletrica" name="servicos">
+  <label for="injecao_eletrica">Injeção elétrica</label> <br>
+
+  <input type="radio" value="conserto de módulo de injeção" id="conserto_modulo_injecao" name="servicos">
+  <label for="conserto_modulo_injecao">Conserto de módulo de injeção</label> <br>
+
+  <input type="radio" value="codificação de chave" id="codificacao_chave" name="servicos">
+  <label for="codificacao_chave">Codificação de chave</label> <br>
+    </section>
+    <section>
+        <!--selecionar a data-- -->
+  <h2>selecione a data</h2>
+  <input type="date" id="inputData" name="data">        
+    </section>
+     <section>
+        <!--formulario para contato-->
+  <h2>insira informações para contato</h2>
+  <fieldset>
+  <legend>Informações de contato</legend>
+  <label for="inputNome">Nome:</label>
+  <input type="text" id="inputNome" name="nome"> <br>
+
+  <label for="inputEmail">Email:</label>
+  <input type="email" id="inputEmail" name="email"> <br>
+
+  <label for="inputTelefone">Telefone:</label>
+  <input type="tel" id="inputTelefone" name="telefone"> <br>
+
+  <button type="button"onclick="Enviar(event)">Enviar</button>
+  <p id="mensagem"></p>
+  </fieldset>
+  </form>
+     </section>
+     </main>
+    <script src="script.js"></script>
+   </body>
+  </html>

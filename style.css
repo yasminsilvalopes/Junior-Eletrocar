@@ -1,0 +1,63 @@
+body {
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+     font-family: 'poppins', sans-serif;
+}
+html, body {
+   background-color: #bdc2d3; 
+    color: #091b38;
+    width: 100%;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+ input[type="radio"] {
+      accent-color: rgb(15, 32, 54);
+ }
+
+   input[type="text"] {
+    width:80%;    
+    padding: 0.4rem;
+    border-radius: 50px;
+    background-color: #dedfe5;
+   }
+    input[type="email"] {
+        width: 80%;
+        padding: 0.4rem; 
+        border-radius: 50px;
+        background-color: #dedfe5;
+    }
+    input[type="tel"] {
+        width: 80%;
+        padding: 0.4rem;
+        border-radius: 50px;
+        background-color: #dedfe5;
+    }
+     
+    fieldset {
+        border: 2px solid #091b38;
+        border-radius: 5px;
+        padding: 1rem;
+    }
+     legend {
+        color: #091b38;;
+        padding: 0 0.5rem; 
+     }
+     button {
+    background-color: #22458f;
+    color: #F4F0EA;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+        
+        
